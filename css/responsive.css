@@ -1,0 +1,31 @@
+/* Larger than mobile */
+@media (max-width: 400px) {
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (max-width: 550px) {}
+
+/* Larger than tablet */
+@media (max-width: 750px) {}
+
+/* Larger than desktop */
+@media (max-width: 1050px) {
+    .responsiveCell {
+        width: 30% !important; }
+}
+
+/* Larger than Desktop HD */
+@media (max-width: 1200px) {
+    .project {
+        width: 400px; }
+    .project-info-digital {
+        height: 320px; }
+    .project-info {
+        height: 230px; }
+    .project-info h4 {
+        width: 370px; }
+    .project-info h5 {
+        width: 355px; }
+    .project-info p {
+        width: 355px; }
+}
